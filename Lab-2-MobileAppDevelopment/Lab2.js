@@ -13,7 +13,7 @@ function listAllTasks() {
 }
 function deleteTask(task) {
     var key = task;
-    var index = tasks.lastIndexOf(key, 0);
+    var index = tasks.IndexOf(key, 0);
     if (index > -1) {
         tasks.splice(index, 1);
     }
